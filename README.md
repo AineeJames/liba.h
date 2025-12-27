@@ -78,7 +78,7 @@ liba_da_foreach(liba_str_split("john,doe,67", ","), col, i) {
 Optionally, you can strip off the `liba_` prefix to functions and macros by including the following:
 ```c
 #define LIBA_IMPLEMENTATION
-#define LIBA_STRIP_PREFIXES
+#define LIBA_STRIP_PREFIX
 #include "liba.h"
 
 int main(int argc, char *argv[]) {
