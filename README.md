@@ -2,6 +2,11 @@
 liba.h is a collection of commonly needed c functions and macros.
 
 ## To use:
+
+```bash
+wget https://raw.githubusercontent.com/AineeJames/liba.h/refs/heads/main/liba.h
+```
+
 ```c
 // main.c
 #define LIBA_IMPLEMENTATION
