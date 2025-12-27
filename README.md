@@ -28,7 +28,6 @@ liba_debug(x);
 
 ### Dynamic Arrays
 ```c
-/* --- Dynamic Arrays --- */
 liba_da(int) numbers = liba_da_init(); // Initialize a dynamic array of integers.
 
 for (int i = 0; i++; i < 10) {
@@ -70,7 +69,7 @@ liba_da_foreach(liba_str_split("john,doe,67", ","), col, i) {
 ### Handlers
 - **LIBA_FATAL_HANDLER** (default `exit(EXIT_FAILURE);`): called on fatal
 
-## Strpping prefixes:
+## Stripping prefixes:
 Optionally, you can strip off the `liba_` prefix to functions and macros by including the following:
 ```c
 #define LIBA_IMPLEMENTATION
